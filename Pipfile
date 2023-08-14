@@ -10,4 +10,5 @@ fastapi = "*"
 [dev-packages]
 
 [requires]
-python_version = "3.10"
+# Vercel currently supports Python 3.9 only.
+python_version = "3.9"
